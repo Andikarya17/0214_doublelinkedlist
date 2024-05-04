@@ -54,3 +54,12 @@ else {
         if (previous != NULL) {
             previous->next = newNode;   // step 7: Make the next field of the previous node
         }
+
+         else {
+            // if previous is still NULL, it means newNode is now the first node
+            START = newNode;
+        }
+
+    }
+
+}
